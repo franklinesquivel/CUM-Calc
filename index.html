@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/functions.js"></script>
+    <title>CUM - Calc</title>
+</head>
+<body>
+
+    <main class="">
+        <div id="mainCont" class="section row">
+            <div class="btn-cont col s12">
+                <a href="#mdlNum" class="btn-large cyan darken 2 modal-trigger">Número de materias</a>
+            </div>
+        </div>
+    </main>
+    
+    <div id="mdlNum" class="modal">
+      <div class="modal-content">
+        <h4 class="cyan-text text-darken-4 center">Ingresa la cantidad de materias cursadas</h4>
+        <form name="frmNum" id="frmNum" class="row">
+            <div class="input-field col s6 offset-s3">
+                <input type="number" name="txtNum">
+            </div>
+            <div class="col s12 btn-cont">
+                <button id="btnNum" class="btn waves-effect waves-light cyan darken-2">Siguiente</button>
+            </div>
+        </form>
+      </div>
+    </div>
+
+</body>
+</html>

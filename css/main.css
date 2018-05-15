@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box !important;
+}
+
+table.center td, table.center th{
+    text-align: center;
+}
+
+main{
+    margin: 5% auto 0 auto;
+    max-width: 95%;
+    width: 90%;
+}
+
+
+.alert{
+    padding: 2%;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-cont > .btn{
+    margin: 0 1%;
+}
+
+#toast-container{
+    z-index: 100002 !important;
+}
+
+.input-field .prefix.active{
+    color: #4dd0e1 !important;
+}
+
+/* label focus color */
+input[type=text]:focus + label,
+input[type=number]:focus + label,
+input[type=date]:focus + label,
+input[type=tel]:focus + label,
+input[type=search]:focus + label,
+textarea.materialize-textarea:focus + label,
+input[type=email]:focus + label,
+input[type=password]:focus + label {
+    color: #00acc1 !important;
+}
+
+/* label underline focus color */
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=date]:focus,
+input[type=tel]:focus,
+input[type=search]:focus,
+textarea.materialize-textarea:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border-bottom: 1px solid #00acc1 !important;
+    box-shadow: 0 1px 0 0 #00acc1 !important;
+}
+
+.subjectCont{
+    border: 2px solid #0097a7;
+    margin: 1px;
+}
